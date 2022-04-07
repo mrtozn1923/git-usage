@@ -3,10 +3,12 @@ BTK Akademide yayınlanmış Atıl Samancıoğluna ait eğitimden notları ve ke
 [www.mertozen.com/git-usage >](https://mertozen.com/Basic_GIT/)
 
 ![Screenshot](git_schema.png)
+
 ![Screenshot](git_cheat_sheet.png)
 
 ## İçindekiler
 [1.GIT Bash Terminal Komutları](#1-git-bash-terminal-komutlari)
+
 [2.GIT Temelleri](#2-git-temelleri̇)
 - [Versiyon Kontrolü](#versiyon-kontrolü)
 - [Yapılandırma Listesi](#yapılandırma-listesi)
@@ -72,6 +74,7 @@ git init
 ```
 ### GITIGNORE
 Çalışma dizinindeki .env, node_modules gibi git sistemi tarafından takip edilmesi doğru olmayan dosya ve dizinleri ana dizinde `.gitignore` dosyası oluşturup bildirebilirsiniz.
+
 ![Screenshot](gitignore.png)
 
 ### Durum Kontrolü
@@ -79,6 +82,7 @@ git init
 ```git
 git status
 ```
+
 ![Screenshot](git-basic-schema.png)
 
 ### Staging Area
@@ -148,6 +152,7 @@ Yukarıdaki kod ile işlemin tamamlanıp tamamlanmadığını kontrol edebilirsi
 Proje sürecinde farklı ekipler farklı özellikler geliştiriyor olabilir ya da siz de asıl proje üzerinde bir güncelleme yapmadan feature ayrımı yaparak ilerlemek istiyor olabilirsiniz. Bu işlem için branchler kullanılmaktadır.
 `NOT`: HEAD güncel olarak hangi branch ve hangi committe olduğumuz gösterir.
 `NOT`: Git sistemi varsayılan olarak `MASTER` branch üzerinden ilerler ancak bunu son zamanlarda `MAIN` olarak adlandırmak istiyorlar.
+
 ![Screenshot](branch-1.png)
 
 ### Güncel Branch Bilgisi
@@ -176,6 +181,7 @@ git merge Feat
 ```
 ### Fast Forwarding
 `Master` branch üzerinde bir `değişiklik yapmadan` diğer branch üzerinde yapılan değişikleri master branch'e dahil etme işlemine `fast forwarding` denilmektedir. Özel bir komutu yok.
+
 ![Screenshot](fast-forwarding.jpg)
 
 ### Merge Conflict
@@ -203,9 +209,11 @@ Yukarıdaki aşamaya gelebilmek için şu adımları tekrarlamanız gerekmektedi
 Şimdi dosyada gördüğümüz ifadelere ve senaryolara gelelim.
 
 1. `HEAD` olarak işaretlenmiş `green` satırı geçerli branch olan master branch'i ifade etmektedir. Eğer bu değişikliğin kabul edilmesini isterseniz aşağıdaki gibi dosyayı düzenleyip kaydedip commit işlemi yapmanız gerekecektir.
+
 ![conflict-1](conflict-1.jpg)
 
 2. `feature` ile işaretlenmiş `blue` satırı diğer branch üzerinden gelen değişikliği ifade etmektedir. Eğer bu branch üzerinden gelen değişikliği kabul etmek istiyorsanız aşağıdaki gibi ilgili yerleri temizlemeniz ve kaydetmeniz gerekmektedir. Tabii sonrasında commit işlemi yapmanız gerekmektedir.
+
 ![conflict-2](conflict-2.jpg)
 
 3. Her iki branch üzerinden gelen değişikleri kabul etmek istiyorda olabilirsiniz. Bu durumda aşağıdaki gibi dosyayı düzenleyip commit işlemi yapmalısınız.
