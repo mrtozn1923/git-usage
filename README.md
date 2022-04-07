@@ -1,6 +1,6 @@
 # GIT KULLANIMI
 BTK Akademide yayınlanmış Atıl Samancıoğluna ait eğitimden notları ve kendi katkılarımı içermektedir.
-[www.mertozen.com/git-usage >](https://mertozen.com/Basic_GIT/)
+[www.mertozen.com/git-usage >](https://mertozen.com/git-usage/)
 
 ![Screenshot](git_schema.png)
 
