@@ -38,6 +38,7 @@ BTK Akademide yayınlanmış Atıl Samancıoğluna ait eğitimden notları ve ke
 - [GIT Rebase](#git-rebase)
 
 [5.Remote Repository (Github vb.)](#5-remote-repository-github-vb)
+- [Remote Repo Branch Push](#remote-repo-branch-push)
 
 ## 1. GIT BASH TERMINAL KOMUTLARI
 ```git
@@ -332,6 +333,12 @@ git pull origin main
 ```
 
 Tabi tek branch varsa sadece `git pull` demek yeterli olacaktır.
+
+### Remote Repo Branch Push
+Remote Repoya lokalinizde oluşturduğunuz bir branch'i göndermek isterseniz aşağıdaki işlemleri yapmanız gerekir.
+
+1. git switch branchName
+2. git push --set-upstream origin branchName
 
 
 
